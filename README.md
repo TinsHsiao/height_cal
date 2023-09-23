@@ -1,22 +1,22 @@
 # height_cal
 
-使用函示庫 :
-CV2
-$ pip install opencv-python
-#
-PYQT5
-$ pip install pyqt5
+使用函示庫 :  
+CV2  
+$ pip install opencv-python  
+  
+PYQT5  
+$ pip install pyqt5  
+  
+使用介面設計軟體 :  
+  Qt Designer  
+  設計後取得 .ui 檔  
+將.ui檔轉至.py檔  
+$ pyuic5 -x example.ui -o example_ui.py  
 
-使用介面設計軟體 :
-  Qt Designer
-  設計後取得 .ui 檔
-將.ui檔轉至.py檔
-$ pyuic5 -x example.ui -o example_ui.py
-
-
-
-
-
+  
+  
+  
+  
 Method :
 使用滑鼠，對相片中欲測量之物體進行點擊，即可計算其高度。
 
