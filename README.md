@@ -3,7 +3,7 @@
 使用函示庫 :
 CV2
 $ pip install opencv-python
-
+#
 PYQT5
 $ pip install pyqt5
 
